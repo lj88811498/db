@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.youedata.nncloud.modular.nanning.dao.LogMapper">
+
+	<!-- 通用查询映射结果 -->
+	<resultMap id="BaseResultMap" type="com.youedata.nncloud.modular.nanning.model.Log">
+		<id column="log_id" property="logId" />
+		<result column="log_id" property="logId" />
+		<result column="log_status" property="logStatus" />
+		<result column="log_msg" property="logMsg" />
+		<result column="log_sql1" property="logSql1" />
+		<result column="log_sql2" property="logSql2" />
+		<result column="log_sql3" property="logSql3" />
+	</resultMap>
+
+
+</mapper>

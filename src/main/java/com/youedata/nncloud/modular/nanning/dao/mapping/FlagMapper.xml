@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.youedata.nncloud.modular.nanning.dao.FlagMapper">
+
+	<!-- 通用查询映射结果 -->
+	<resultMap id="BaseResultMap" type="com.youedata.nncloud.modular.nanning.model.Flag">
+		<id column="flag_id" property="flagId" />
+		<result column="flag_id" property="flagId" />
+		<result column="flag_pwd" property="flagPwd" />
+	</resultMap>
+
+	<select id="selectAll" resultMap="BaseResultMap">
+		SELECT * FROM flag limit 1
+	</select>
+
+	<update id="updateAll">
+		update flag set flag_pwd = cast(UUID() as char)
+	</update>
+</mapper>
