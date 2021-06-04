@@ -506,7 +506,7 @@
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
-            <version>4.5.2</version>
+            <version>4.5.13</version>
         </dependency>
         <!-- 时间转换  -->
         <dependency>
@@ -565,7 +565,7 @@
                     <dependency>
                         <groupId>org.apache.httpcomponents</groupId>
                         <artifactId>httpclient</artifactId>
-                        <version>4.4</version>
+                        <version>4.5.13</version>
                     </dependency>
                 </dependencies>
 
